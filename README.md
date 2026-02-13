@@ -22,20 +22,25 @@ Sinon affichage normal
 2. Python prépare les données, par centre le template ninja2 s'affiche les donnes.
    
 exercice 4*******
+
 1. pour facilite la maintenance (bug) et eviter la répétition de code ainsi facile a modifier
    
 exercice 5*********
+
 role db : c'est l'instance de la connexion à la base de données définie dans SQLALCHEMY_DATABASE_URI
 
 exercice 6********
+
 1. le fichier de base de données sur Flask-SQLALCHEMY
 2. db.create_all() Crée la base et les tables si elles n'existent pas
    
 exercice 7**********
+
 1 role db.session.ad() : C’est comme mettre une modification “en attente
 role db.session.commit() : c'est la confirmation finle 
 
 question synthese:********************
+
 1 .
 L’utilisateur accède à la page d’accueil
 Le formulaire envoie une requête POST vers /add
